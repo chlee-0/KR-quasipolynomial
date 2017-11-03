@@ -64,6 +64,14 @@ QsystemfordimWqpCheck[ty_,rk_,a_][res_Integer]:=Block[{coefs},
 ]/;0<=res<ttt[ty,rk,a]
 
 
+Print["compute q_a[0] (it must be 1)"]
+Do[
+Print[s];
+Print[(dimW@@s)[0]]
+,{s,allVerticesTypeEFG}
+]
+
+
 Print["dimension of fundamental modules (return two numbers which must be the same)"]
 Do[
 Print[s];
